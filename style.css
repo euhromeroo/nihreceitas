@@ -21,3 +21,17 @@ table {
       color
   
 }
+
+#inicio {
+  background-color; color: #80591e;
+  padding: 20px;
+  border-bottom: 2px darkkhaki;
+  text-align: center;
+}
+
+#receita {
+  background-color: burlywood;
+  padding: 20px;
+  border-bottom: 2px darksalmon;
+  text-align: center;
+}
