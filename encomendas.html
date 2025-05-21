@@ -27,10 +27,30 @@
     <label for="telefone">Telefone</label>
     <input type="tel" id="telefone" name="telefone" required>
 
-    <label for="nome">Nome</label>
-    <input type="text" id="nome" name="nome" required>
+    <label for="nome">Whatsapp</label>
+    <input type="tel" id="whatsapp" name="whatsapp" required>
 
+    <!-- Tipo de Produto -->
 
+    <label for="produto">O que deseja encomendar?</label>
+    <input id="produto" name="produto" required>
+     <option value="">Selecione uma opção</option>
+     <option value="bolos">Bolos</option>
+     <option value="salgados">Salgados</option>
+     <option value="sobremesas">Sobremesas</option>
+     <option value="outros">Outros</option>
+   </select> 
+   
+    <!-- Descrição do Pedido -->
+    <label for="descricao">Descreva seu pedido</label>
+    <textarea id="descricao" name="descricao" rows="4" required></textarea>
+    
+    <!-- Restrições Alimentares-->
+    <label for="restricao">Possui alguma restrição alimentar?</label>
+    <textarea id="restricao" name="restricao" rows="2" placeholder="Ex: sem lactose, sem glútem..."></label>
+
+    
+  </form>
 </div>
   
  
