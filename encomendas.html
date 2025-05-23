@@ -47,9 +47,27 @@
     
     <!-- Restrições Alimentares-->
     <label for="restricao">Possui alguma restrição alimentar?</label>
-    <textarea id="restricao" name="restricao" rows="2" placeholder="Ex: sem lactose, sem glútem..."></label>
+    <textarea id="restricao" name="restricao" rows="2" placeholder="Ex: sem lactose, sem glútem..."></textarea>
 
+    <!-- Forma de Pagamento -->
+    <label for="Pagamento">Forma de pagamento</label>
+    <select id="pagamento" name="pagamento" required>
+     <option value="">Selecione uma opção</option> 
+     <option value="pix">Pix</option> 
+     <option value="cartao">Cartão de crédito</option> 
+     <option value="boleto">Boleto</option> 
+     <option value="dinheiro">Dinheiro na entrega</option> 
+    </select>
     
+    <!-- Data e Hora -->
+    <label for="data">Data da encomenda:</label>
+    <input type="date" id="data" name="data" required>
+
+    <label for="hora">Horário desejado:</label>
+    <input type="hora" id="hora" name="hora" required>
+
+   
+
   </form>
 </div>
   
